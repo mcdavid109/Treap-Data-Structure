@@ -11,7 +11,7 @@ struct Treap{
 		val = _val;
 		cnt = 1;
 		random = rand();
-		keft = right = NULL;
+		left = right = NULL;
 	}
 
 	void split(Treap *t , int x , Treap *l , Treap *r){
