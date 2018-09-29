@@ -148,7 +148,7 @@ struct Treap{
 		}
 		else{
 			r = t;
-			split(t->left , l , t->left);
+			split(t->left , l , t->left , pos , cur_pos + 1);
 		}
 		update(l);
 		update(r);
